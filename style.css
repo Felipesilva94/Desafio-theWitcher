@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  text-transform:uppercase;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  width:100%;
+  height:100vh;
+  background-image:url("imagem-thewitcher/fundo-fogo.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+header{
+  
+  width:100%;
+}
+figure{
+  display:inline-block;
+  margin:0 0 0 5vw;
+}
+.logo{
+  width:40px;
+}
+.title{
+  display:inline-block;
+  vertical-align:top;
+  margin: 5.5vh 0 0 4vw;
+}
+h1{
+  font-size:1rem;
+}
+nav{
+  display:inline-block;
+  vertical-align:top;
+  margin: 5.5vh 0 0 15vw;
+}
+li{
+  display:inline;
+  padding: 0 0 0 2vw;
+  cursor:pointer;
+}
+li:hover{
+  color:red;
+}
+main{
+  background-image:url("imagem-thewitcher/witcher.png");
+  height:87%;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+}
+.bruxo{
+  width:90%;
+  text-align:center;
+  margin-top:32vh;
+}
+.witcher{
+  width:250px;
+}
+.btn-div{
+  width:100%;
+  text-align:center;
+  margin:0 auto;
+ 
+}
+button{
+  background: linear-gradient(0deg, rgba(221,17,30,1) 0%, rgba(170,13,24,1) 26%, rgba(170,13,24,1) 62%, rgba(221,17,30,1) 100%);
+  width:12vw;
+  height:6vh;
+  border-radius:6px;
+  border:none;
+  cursor:pointer;
+}
+button:hover{
+  transform:scale(1.1);
+}
